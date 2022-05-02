@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif, Arial;
+    text-align: justify;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+
+/* Style de la bare de navigation (menu principale) */
+
+#menu-block{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+
+.btn-menu-l,.btn-menu-r{
+    align-self: center;
+}.btn-menu-l>a,.btn-menu-r>a{
+    margin-right: 10px;
+    padding: 2.5px;
+    background-color: #22B5B5;
+    border-radius: 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.btn-menu-l>a:hover,.btn-menu-r>a:hover{
+    background-color: #FFF;
+    color: #22B5B5;
+}
+
+#logo>img{
+    width: 15vw;
+    height: 10vh;
+}
